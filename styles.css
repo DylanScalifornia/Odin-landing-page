@@ -4,7 +4,7 @@ body{
   padding: 0;
   color: black;
  line-height: 1.5;
- background: #1f2937;
+ background-color: #1f2937;
 }
 
 *{
@@ -19,12 +19,14 @@ body{
   padding: 0 30px;
 }
 
+
 /* Navbar */
 .navbar{
  
   color: white;
   height: 60px;
   margin-bottom: 30px;
+  background:#1f2937;
 }
 
 .navbar .logo{
@@ -60,7 +62,7 @@ ul{
 /* Header */
 .header{
   color: white;
-  min-height: 200px;
+  min-height: 300px;
   margin-top: 60px;
 }
 
@@ -105,4 +107,51 @@ margin-left: 10px;
 .header .info-text{
  margin-bottom: 2px;
  font-size: 16px;
+}
+
+/* Box Section */
+
+.boxes{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  padding: 50px;
+}
+
+.title{
+  font-size: 36px;
+  font-weight:bold;
+  color:black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.blue-box{
+  border-style: solid;
+  border-color: #3b82f6;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+}
+
+.-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  gap: 12px;
+  text-align: center;
+  color: #1f2937
 }
