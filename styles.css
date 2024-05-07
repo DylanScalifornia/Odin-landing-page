@@ -210,7 +210,14 @@ margin: 75px;
   border-radius: 6px;
 }
 
-
+.footer{
+  background-color: #1f2937;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
 
 
 
